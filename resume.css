@@ -1,0 +1,214 @@
+body{
+	margin: 0px;
+}
+
+/*header*/
+
+#header{
+    height: 80vh;
+	background-image: url(https://www.cv-library.co.uk/career-advice/wp-content/uploads/2018/03/technical-cv.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity:0.8 ;
+	padding-top: 1.2rem;
+}
+
+/*list part*/
+
+.list{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+}
+
+.list li a{
+	color: white;
+	text-decoration:none ;
+
+}
+.nav li a:hover{
+	color:lightgray;
+	border-bottom: 1px solid white ;
+
+}
+.text-center{
+	text-align: center;
+}
+
+#name-container{
+	margin-top: 20vh;
+}
+
+#name{
+	color: white;
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	font-weight: 750;
+	margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+	color: red;
+	font-size: 1rem;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px red;
+}
+
+/* About section*/
+
+.main{
+	margin-top: 20 px;
+	display: flix;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -15vh;
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 3px 3px white;
+	border: 2px solid white;
+
+}
+
+#about-me{
+	font-size: 30px;
+	font-weight: 500;
+	margin-left: 5%;
+	margin-right: 10px;
+}
+
+/*skill section*/
+
+#flex-content{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-content > div {
+	width: 75%;
+	padding-bottom: 40px;
+}
+
+#my-skill{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+#skill-img{
+	hight: 1.5rem;
+	width: 1.6rem;
+   
+}
+
+.skill{
+	columns: 2;
+	font-family: sans-serif;
+	margin: 0px;
+	font-size: x-large;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.skill-list{
+	font-size: 100%;
+	width: 80%;
+	color: blueviolet;
+	display: list-item;
+	text-align: -webkit-match-parent;
+
+}
+
+
+/*education section*/
+
+#my-education{
+	font-size: x-large;
+	font-family: sans-serif;
+}
+
+.edu-head{
+	display: flex;
+	align-items: center;
+	height: 40px;
+	font-family: sans-serif;
+}
+
+pre{
+	margin: 0px;
+	font-size: x-large;
+	font-weight: bold;
+	color: blueviolet;
+}
+
+.collage{
+	font-size: large;
+}
+
+.edu-title{
+	color: blueviolet;
+	font-size: large;
+	font-weight: bold;
+}
+
+.date-from{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: gray;
+}
+
+#objBody{
+	padding-top: 10px;
+	font-family: sans-serif;
+}
+
+#contact{
+	font-size: x-large;
+	font-family: sans-serif;
+	height: 100%;
+	width: 100%;
+	margin-top: 40px;
+}
+
+#my-contact{
+	padding-left: 25%;
+}
+
+.edu-contact{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	justify-content: center;
+	font-family: sans-serif;
+	margin-top: 20px;
+	color: blueviolet;
+	padding-left: 21.5%;
+	height: 40px;
+}
