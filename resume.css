@@ -6,7 +6,7 @@ body{
 
 #header{
     height: 80vh;
-	background-image: url(https://www.cv-library.co.uk/career-advice/wp-content/uploads/2018/03/technical-cv.jpg);
+	background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
